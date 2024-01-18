@@ -6,7 +6,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - DATABASE_URL=postgres://dbuser:dbpassword@db:5432/dbname
+      - DATABASE_URL=postgres://admin:123@db:6543/Chat_API
     depends_on:
       - db
 
